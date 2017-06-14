@@ -1,0 +1,18 @@
+#
+# Code By:     Mahdi Eftekhari Moghaddam <mahdi.eft@gmail.com>
+#
+# Book:        The Definitive Guide to Apache mod_rewrite
+# Author:      Rich Bowen
+# Publisher:   Apress
+# Copyright:   (c)2006
+# ISBN-10:     1-59059-561-0
+# ISBN-13:     978-1-59059-561-9
+#
+# Chapter:     02 - Regular Expressions
+# Filename:    chapter_02_example_12_page_12.txt
+# Page:        12
+#
+
+# applied to string "canadian"
+c(.*)n      # greedy: $1 = anadia
+c(.*?)n     # non-greedy: $1 = a

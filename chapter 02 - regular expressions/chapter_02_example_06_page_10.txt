@@ -1,0 +1,17 @@
+#
+# Code By:     Mahdi Eftekhari Moghaddam <mahdi.eft@gmail.com>
+#
+# Book:        The Definitive Guide to Apache mod_rewrite
+# Author:      Rich Bowen
+# Publisher:   Apress
+# Copyright:   (c)2006
+# ISBN-10:     1-59059-561-0
+# ISBN-13:     978-1-59059-561-9
+#
+# Chapter:     02 - Regular Expressions
+# Filename:    chapter_02_example_06_page_10.txt
+# Page:        10
+#
+
+# allows zero or more "f"s, as well as zero or more "e"s.
+giraf*e*
