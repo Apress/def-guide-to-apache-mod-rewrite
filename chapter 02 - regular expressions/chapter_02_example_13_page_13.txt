@@ -1,0 +1,17 @@
+#
+# Code By:     Mahdi Eftekhari Moghaddam <mahdi.eft@gmail.com>
+#
+# Book:        The Definitive Guide to Apache mod_rewrite
+# Author:      Rich Bowen
+# Publisher:   Apress
+# Copyright:   (c)2006
+# ISBN-10:     1-59059-561-0
+# ISBN-13:     978-1-59059-561-9
+#
+# Chapter:     02 - Regular Expressions
+# Filename:    chapter_02_example_13_page_13.txt
+# Page:        13
+#
+
+# matches the letter "a", or the letter "b", or the letter "c"
+[abc]
