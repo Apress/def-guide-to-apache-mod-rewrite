@@ -1,0 +1,16 @@
+#
+# Code By:     Mahdi Eftekhari Moghaddam <mahdi.eft@gmail.com>
+#
+# Book:        The Definitive Guide to Apache mod_rewrite
+# Author:      Rich Bowen
+# Publisher:   Apress
+# Copyright:   (c)2006
+# ISBN-10:     1-59059-561-0
+# ISBN-13:     978-1-59059-561-9
+#
+# Chapter:     04 - The RewriteRule Directive
+# Filename:    chapter_04_example_02_page_36.txt
+# Page:        36
+#
+
+RedirectMatch a http://a.com/

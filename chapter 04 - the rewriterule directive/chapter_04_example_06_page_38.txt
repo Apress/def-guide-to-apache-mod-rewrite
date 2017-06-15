@@ -1,0 +1,20 @@
+#
+# Code By:     Mahdi Eftekhari Moghaddam <mahdi.eft@gmail.com>
+#
+# Book:        The Definitive Guide to Apache mod_rewrite
+# Author:      Rich Bowen
+# Publisher:   Apress
+# Copyright:   (c)2006
+# ISBN-10:     1-59059-561-0
+# ISBN-13:     978-1-59059-561-9
+#
+# Chapter:     04 - The RewriteRule Directive
+# Filename:    chapter_04_example_06_page_38.txt
+# Page:        38
+#
+
+# 10080 minutes is one week
+RewriteRule ^/index.html - [cookie=frontdoor:yes:.example.com:10080:/]
+
+# in .htaccess file within a directory the above example should be
+RewriteRule ^index.html - [cookie=frontdoor:yes:.example.com:10080:/]
