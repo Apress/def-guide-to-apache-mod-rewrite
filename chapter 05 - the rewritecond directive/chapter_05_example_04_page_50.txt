@@ -1,0 +1,20 @@
+#
+# Code By:     Mahdi Eftekhari Moghaddam <mahdi.eft@gmail.com>
+#
+# Book:        The Definitive Guide to Apache mod_rewrite
+# Author:      Rich Bowen
+# Publisher:   Apress
+# Copyright:   (c)2006
+# ISBN-10:     1-59059-561-0
+# ISBN-13:     978-1-59059-561-9
+#
+# Chapter:     05 - The RewriteCond Directive
+# Filename:    chapter_05_example_04_page_50.txt
+# Page:        50
+#
+
+RewriteEngine on
+RewriteCond %{TIME_HOUR}%{TIME_MIN} >0700
+RewriteCond %{TIME_HOUR}%{TIME_MIN} <1900
+RewriteRule ^/page\.html$ page.day.html
+RewriteRule ^/page\.html$ page.night.html

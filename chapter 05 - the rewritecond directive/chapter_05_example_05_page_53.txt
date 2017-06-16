@@ -1,0 +1,19 @@
+#
+# Code By:     Mahdi Eftekhari Moghaddam <mahdi.eft@gmail.com>
+#
+# Book:        The Definitive Guide to Apache mod_rewrite
+# Author:      Rich Bowen
+# Publisher:   Apress
+# Copyright:   (c)2006
+# ISBN-10:     1-59059-561-0
+# ISBN-13:     978-1-59059-561-9
+#
+# Chapter:     05 - The RewriteCond Directive
+# Filename:    chapter_05_example_05_page_53.txt
+# Page:        53
+#
+
+SetEnvIfNoCase Referer !\.rcbowen\.com not-linked-from-here=1
+RewriteEngine On
+RewriteCond %{ENV:not-linked-from-here} 1
+RewriteRule \.(gif|jpg|png)$ /images/goaway.gif [PT,NC]
