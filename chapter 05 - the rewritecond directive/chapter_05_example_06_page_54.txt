@@ -1,0 +1,16 @@
+#
+# Code By:     Mahdi Eftekhari Moghaddam <mahdi.eft@gmail.com>
+#
+# Book:        The Definitive Guide to Apache mod_rewrite
+# Author:      Rich Bowen
+# Publisher:   Apress
+# Copyright:   (c)2006
+# ISBN-10:     1-59059-561-0
+# ISBN-13:     978-1-59059-561-9
+#
+# Chapter:     05 - The RewriteCond Directive
+# Filename:    chapter_05_example_06_page_54.txt
+# Page:        54
+#
+
+RewriteCond %{HTTP_HOST} = ""
